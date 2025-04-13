@@ -19,6 +19,7 @@ void swap(int *a, int *b)
  * @array: array to sort
  * @low: starting index of the partition
  * @high: ending index of the partition
+ * @size: size of the array
  *
  * Return: return the partition point
  */
@@ -54,6 +55,7 @@ int Lomuto_partition(int array[], int low, int high, size_t size)
  * @array: array to sort
  * @low: starting index
  * @high: ending index
+ * @size: size of the array
  */
 
 void quick_sort_rec(int *array, int low, int high, size_t size)
