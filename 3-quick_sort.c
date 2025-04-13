@@ -65,7 +65,7 @@ void quick_sort_rec(int *array, int low, int high, size_t size)
 	{
 		pivot_index = partition(array, low, high, size);
 		quick_sort_rec(array, low, pivot_index - 1, size);
-		quick_sort_rec(array, pivot_index +1, high, size);
+		quick_sort_rec(array, pivot_index + 1, high, size);
 	}
 }
 
@@ -80,5 +80,5 @@ void quick_sort(int *array, size_t size)
 	if (!array || size < 2)
 		return;
 
-	quick_sort_rec(array, 0, size -1, size);
+	quick_sort_rec(array, 0, size - 1, size);
 }
