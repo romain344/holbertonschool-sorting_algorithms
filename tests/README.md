@@ -34,8 +34,6 @@ gcc -Wall -Wextra -Werror -pedantic -std=gnu89
 
 - Selection Sort
 
-*More sorting algorithms may be added depending on the project tasks.*
-
 ---
 
 ## Example Usage
@@ -50,14 +48,6 @@ print_array(array, n);
 selection_sort(array, n);
 print_array(array, n);
 ```
-
----
-
-## Time Complexity of Selection Sort (`2-O`)
-
-- Best case: `O(n^2)`
-- Average case: `O(n^2)`
-- Worst case: `O(n^2)`
 
 ---
 
